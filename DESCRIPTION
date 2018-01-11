@@ -1,0 +1,17 @@
+Package: jaytools
+Type: Package
+Title: A Collection of Utility Functions for Frequent Tasks
+Version: 0.1.0
+Authors@R: person("Matthias", "Jütte", email = "jaytools@mail2.link",
+  role = c("aut", "cre"))
+Description: This package includes various custom utility functions that cover tasks 
+    that are routinely performed in R projects.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    utils,
+    dplyr,
+    lubridate
+RoxygenNote: 6.0.1
+Suggests: testthat
